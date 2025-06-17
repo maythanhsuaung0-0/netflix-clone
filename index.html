@@ -1,4 +1,5 @@
 <html>
+
 <head>
   
   <meta charset="UTF-8">
@@ -6,10 +7,56 @@
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
-
+  <title>Netflix</title>
+  <link rel="stylesheet" href="./index.css" type="text/css">
 </head>
-<h1> Netflix </h1>
+
+
 <body>
-   <img src="netflixbackground image.jpg" alt="background" height="250" width="600" />
+  <!--Netflixlogo-->
+<header class="NetflixLogo">
+ 
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Logonetflix.png/1200px-Logonetflix.png" alt="NetflixLogo" class="logo">
+   <!-- Language & Sign In -->
+    <div class="header-right">
+      <div class="language-select">
+        <label for="language">
+          <span style="margin-right: 5px;">🌐</span>
+        </label>
+        <select id="language">
+          <option value="en">English</option>
+          <option value="hi">Espanol</option>
+        </select>
+      
+       </div>
+      <button class="sign-in-button">Sign In</button>
+    </div>
+</header>
+
+  <!--homepage background image-->
+   <div class="background-area">
+    <div class = "unlimited" > </div>
+    <h1>Unlimited movies, TV shows, and more</h1>
+  </div> 
+   
+ 
+  
+
+  <!-- trending now  -->
+  <div id="trendy">
+    <div class="netflix-ad">
+      <img src="./images/popcorn.svg" alt="popcorn">
+
+      <div class="card">
+        <div>
+          <h3>The Netflix you love for just $7.99.</h3>
+          <p>Get our most affordable, ad-supported plan.</p>
+        </div>
+        <button>Learn More</button>
+      </div>
+    </div>
+  </div>
+  
 </body>
+
 </html>
