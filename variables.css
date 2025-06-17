@@ -2,8 +2,16 @@
   --brand-color: #C11119;
   --background-color: #000000;
   --foreground-color: #ffffff;
+  --muted-foreground-color:rgba(255,255,255,0.7);
   --muted-color: #2D2D2D;
   /* spacing */
-  --width-sm:0.5em;
+  --width-sm: 0.5em;
   --width-md: 1em;
+  /* fontsize */
+  --font-xs: 13px;
+  --font-sm: 14px;
+  --font-md: 16px;
+  --font-lg: 20px;
+  --font-xl: 24px;
+  --font-xxl: 56px;
 }
