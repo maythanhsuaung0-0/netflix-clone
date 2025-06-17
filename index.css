@@ -1,5 +1,6 @@
 @import url(./variables.css);
 
+
 h1,
 h2,
 h3,
@@ -13,6 +14,102 @@ html {
   margin: 0;
   padding: 0;
 }
+
+header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background: rgba(0, 0, 0, 0.7);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+}
+
+body {
+  margin: 0;
+position: relative;
+  font-family: Arial, sans-serif;
+}
+.background-area{
+  background-image: url('https://analyticsindiamag.com/wp-content/uploads/2019/05/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+.language-select {
+      background: transparent;
+      color: white;
+      border: 1px solid #fff;
+      padding: 8px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      display: inline;
+      align-items: right;
+    }
+
+    .language-select select {
+      background: transparent;
+      color: white;
+      border: none;
+      outline: none;
+      font-size: 16px;
+      
+    }
+    .language-select select:hover {
+  background-color: #2D2D2D;
+}
+
+    .sign-in-button {
+      display: inline;
+      background-color: #C11119;
+      color: white;
+      border: none;
+      padding: 8px 20px;
+      font-weight: bold;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .email-button {
+  background-color: #7deac5;
+  color: #e7e4e4;
+}
+
+
+  /*netflixlogo on top left*/
+.NetflixLogo {   
+  padding: 10px;
+}
+
+.logo {
+  width: 100px;   
+  height: auto;
+}
+
+
+.unlimited {
+  background: transparent;
+  color: #FFFFFF;
+  font-size: 32px;
+  font-family: "Netflix Sans", "Helvetica Neue", sans-serif;
+  height: 100vh;
+
+}
+.unlimited h1{
+    align-self: center;
+  justify-self: center;
+}
+
+/*.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}*/
+
 
 body {
   font-family: "Inter", sans-serif;
