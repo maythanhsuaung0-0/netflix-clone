@@ -1,8 +1,6 @@
 @import url(./variables.css);
 
-.background {
-    background-image: netflixbackground;
-}
+
 h1,
 h2,
 h3,
@@ -23,16 +21,24 @@ header {
       align-items: center;
       padding: 20px 40px;
       background: rgba(0, 0, 0, 0.7);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
 }
 
 body {
   margin: 0;
+position: relative;
+  font-family: Arial, sans-serif;
+}
+.background-area{
   background-image: url('https://analyticsindiamag.com/wp-content/uploads/2019/05/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg');
   background-size: cover;
   background-position: center;
-  font-family: Arial, sans-serif;
+  height: 100vh;
+  width: 100%;
 }
-
 .language-select {
       background: transparent;
       color: white;
@@ -83,21 +89,18 @@ body {
   height: auto;
 }
 
-.background-area {
-  background-image: url("https://analyticsindiamag.com/wp-content/uploads/2019/05/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-
-}
 
 .unlimited {
   background: transparent;
   color: #FFFFFF;
   font-size: 32px;
   font-family: "Netflix Sans", "Helvetica Neue", sans-serif;
-  margin: 0px 0px 8px;
-  text-align: center;
+  height: 100vh;
+
+}
+.unlimited h1{
+    align-self: center;
+  justify-self: center;
 }
 
 /*.container {
