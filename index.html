@@ -1,7 +1,7 @@
 <html>
 
 <head>
-  
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
@@ -20,10 +20,11 @@
 
 <body>
   <!--Netflixlogo-->
-<header class="NetflixLogo">
- 
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Logonetflix.png/1200px-Logonetflix.png" alt="NetflixLogo" class="logo">
-   <!-- Language & Sign In -->
+  <header class="NetflixLogo">
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Logonetflix.png/1200px-Logonetflix.png"
+      alt="NetflixLogo" class="logo">
+    <!-- Language & Sign In -->
     <div class="header-right">
       <div class="language-select">
         <label for="language">
@@ -33,21 +34,21 @@
           <option value="en">English</option>
           <option value="hi">Espanol</option>
         </select>
-      
-       </div>
+
+      </div>
       <button class="sign-in-button">Sign In</button>
     </div>
-</header>
+  </header>
 
   <!--homepage background image-->
-   <div class="background-area">
-    <div class = "unlimited flex-row" > 
-    <h1>Unlimited movies, TV shows, and more</h1>
+  <div class="background-area">
+    <div class="unlimited flex-row">
+      <h1>Unlimited movies, TV shows, and more</h1>
     </div>
-  </div> 
-   
- 
-  
+  </div>
+
+
+
 
   <!-- trending now  -->
   <div id="trendy">
@@ -65,28 +66,60 @@
           <button>Learn More</button>
         </div>
       </div>
-      <div class="carousel-container">
+      <div class="movies">
         <h2>Trending Now</h2>
-        <div class="carousel">
-          <div class="poster">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN1Q4e3BgdY7SwiMoVuk6KWA3RwLkMCVkLRw&s"
-              alt="poster">
-            <span class="number">
-              1 </span>
+        <div class="carousel-container">
+          <div class="carousel-control" id="left-control">
+            <img src="./public/images/prev.svg" class="icon-xs" alt="">
           </div>
-          <div class="poster">
-            <img
-              src="https://preview.redd.it/official-poster-for-ginny-georgia-season-3-has-just-dropped-v0-vy6gnpivdkze1.jpeg?width=640&crop=smart&auto=webp&s=910a141feeaab8ca42d439b982a36b867aa2dc02"
-              alt="poster">
-            <span class="number">
-              2</span>
+          <div class="carousel flex-row">
+            <div class="poster">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN1Q4e3BgdY7SwiMoVuk6KWA3RwLkMCVkLRw&s"
+                alt="poster">
+              <span class="number">
+                1 </span>
+            </div>
+            <div class="poster">
+              <img
+                src="https://preview.redd.it/official-poster-for-ginny-georgia-season-3-has-just-dropped-v0-vy6gnpivdkze1.jpeg?width=640&crop=smart&auto=webp&s=910a141feeaab8ca42d439b982a36b867aa2dc02"
+                alt="poster">
+              <span class="number">
+                2</span>
+            </div>
+            <div class="poster">
+              <img src="https://image.tmdb.org/t/p/original/cNHTFUV39qyEsm7edSaJdSqJYtJ.jpg" alt="poster">
+              <span class="number">
+                3 </span>
+            </div>
+            <div class="poster">
+              <img src="https://image.tmdb.org/t/p/original/cNHTFUV39qyEsm7edSaJdSqJYtJ.jpg" alt="poster">
+              <span class="number">
+                3 </span>
+            </div>
+            <div class="poster">
+              <img src="https://image.tmdb.org/t/p/original/cNHTFUV39qyEsm7edSaJdSqJYtJ.jpg" alt="poster">
+              <span class="number">
+                3 </span>
+            </div>
+            <div class="poster">
+              <img src="https://image.tmdb.org/t/p/original/cNHTFUV39qyEsm7edSaJdSqJYtJ.jpg" alt="poster">
+              <span class="number">
+                3 </span>
+            </div>
+            <div class="poster">
+              <img src="https://image.tmdb.org/t/p/original/cNHTFUV39qyEsm7edSaJdSqJYtJ.jpg" alt="poster">
+              <span class="number">
+                3 </span>
+            </div>
+            <div class="poster">
+              <img src="https://image.tmdb.org/t/p/original/cNHTFUV39qyEsm7edSaJdSqJYtJ.jpg" alt="poster">
+              <span class="number">
+                3 </span>
+            </div>
+
           </div>
-          <div class="poster">
-            <img
-              src="https://image.tmdb.org/t/p/original/cNHTFUV39qyEsm7edSaJdSqJYtJ.jpg"
-               alt="poster">
-            <span class="number">
-              3 </span>
+          <div class="carousel-control" id="right-control">
+            <img src="./public/images/next.svg" class="icon-xs" alt="">
           </div>
 
         </div>
@@ -106,29 +139,36 @@
           </div>
           <div class="card-fit flex-row gradient-r-t-l">
             <div class="vertical-card-content">
-              <h3>Enjoy on your TV</h3>
+              <h3>
+                Download your shows to watch offline
+              </h3>
               <p>
-                Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.
+                Save your favorites easily and always have something to watch.
               </p>
-              <img class="icon-lg" src="./public/images/tv.png" alt="tv">
+              <img class="icon-lg" src="./public/images/download.png" alt="tv">
             </div>
           </div>
           <div class="card-fit flex-row gradient-r-t-l">
             <div class="vertical-card-content">
-              <h3>Enjoy on your TV</h3>
+              <h3>
+                Watch everywhere
+              </h3>
               <p>
-                Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.
+                Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.
               </p>
-              <img class="icon-lg" src="./public/images/tv.png" alt="tv">
+              <img class="icon-lg" src="./public/images/watch.png" alt="tv">
             </div>
           </div>
           <div class="card-fit flex-row gradient-r-t-l">
             <div class="vertical-card-content">
-              <h3>Enjoy on your TV</h3>
+              <h3>
+                Create profiles for kids
+              </h3>
               <p>
-                Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.
+                Send kids on adventures with their favorite characters in a space made just for them — free with your
+                membership.
               </p>
-              <img class="icon-lg" src="./public/images/tv.png" alt="tv">
+              <img class="icon-lg" src="./public/images/profile.png" alt="tv">
             </div>
           </div>
 
@@ -136,36 +176,85 @@
       </div>
       <div class="faq">
         <h2>Frequently Asked Questions</h2>
-        <div class="dropdown">
-          <div class="dropdown-q flex-row">
-            <div>
-              What is Netflix?
+        <div class="faq-container">
+          <div class="dropdown">
+            <div class="dropdown-q flex-row">
+              <div>
+                What is Netflix?
 
+              </div>
+              <img src="./public/images/close.svg" alt="" class="icon-xs rotate">
             </div>
-            <img src="./public/images/close.svg" alt="" class="icon-xs">
+            <div class="dropdown-a display-none">
+
+              Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.
+            </div>
           </div>
+          <div class="dropdown">
+            <div class="dropdown-q flex-row">
+              <div>
+                What is Netflix?
+
+              </div>
+              <img src="./public/images/close.svg" alt="" class="icon-xs rotate">
+            </div>
+            <div class="dropdown-a display-none">
+
+              Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.
+            </div>
+          </div>
+          <div class="dropdown">
+            <div class="dropdown-q flex-row">
+              <div>
+                What is Netflix?
+
+              </div>
+              <img src="./public/images/close.svg" alt="" class="icon-xs rotate">
+            </div>
+            <div class="dropdown-a display-none">
+
+              Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.
+            </div>
+          </div>
+          <div class="dropdown">
+            <div class="dropdown-q flex-row">
+              <div>
+                What is Netflix?
+
+              </div>
+              <img src="./public/images/close.svg" alt="" class="icon-xs rotate">
+            </div>
+            <div class="dropdown-a display-none">
+
+              Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.
+            </div>
+          </div>
+
+
+
         </div>
+
       </div>
       <div class="emailUs">
         <div>
           <h3>
             Ready to watch? Enter your email to create or restart your membership.
           </h3>
-          <div class="emailBox flex-row">
-<input type="emaill" placeholder="Email Address">
-<button class="getStarted">
- <span>Get Started</span>
- <img src="./public/images/next.svg" alt="next" class="icon-xs">
-</button>
+          <div class="emailBox ">
+            <input type="emaill" placeholder="Email Address">
+            <button class="getStarted flex-row">
+              <div>
+                <span>Get Started</span>
+                <img src="./public/images/next.svg" alt="next" class="icon-xs">
+              </div>
+            </button>
           </div>
         </div>
       </div>
     </div>
   </div>
-  
+
 </body>
+<script src="./index.js"></script>
 
 </html>
-
-</html>
-                                                                                                                                         </html>

@@ -3,6 +3,7 @@
   --background-color: #000000;
   --foreground-color: #ffffff;
   --muted-foreground-color:rgba(255,255,255,0.7);
+  --pale-muted-color:rgba(255,255,255,0.1);
   --muted-color: #2D2D2D;
   /* spacing */
   --width-sm: 0.5em;
