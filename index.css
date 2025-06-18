@@ -19,12 +19,13 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
-  background: rgba(0, 0, 0, 0.7);
+  padding: 20px 120px;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
+  box-sizing: border-box;
+  z-index: 100;
 }
 
 body {
@@ -39,6 +40,18 @@ body {
   background-position: center;
   height: 100vh;
   width: 100%;
+  position: relative;
+}
+.background-area::before{
+  position: absolute;
+  top: 0;
+  left: 0;
+  content:"";
+  width: 100%;
+  height: 100%;
+  background: var(--background-color);
+  opacity: 0.5;
+
 }
 
 .language-select {
@@ -50,6 +63,7 @@ body {
   cursor: pointer;
   display: inline;
   align-items: right;
+    font-size: var(--font-sm);
 }
 
 .language-select select {
@@ -57,7 +71,7 @@ body {
   color: white;
   border: none;
   outline: none;
-  font-size: 16px;
+     font-size: var(--font-sm);
 
 }
 
@@ -70,10 +84,11 @@ body {
   background-color: #C11119;
   color: white;
   border: none;
-  padding: 8px 20px;
+  padding: 10px 20px;
   font-weight: bold;
   border-radius: 4px;
   cursor: pointer;
+  margin-left: .5em;
 }
 
 .email-button {
@@ -83,12 +98,9 @@ body {
 
 
 /*netflixlogo on top left*/
-.NetflixLogo {
-  padding: 10px;
-}
 
 .logo {
-  width: 100px;
+  width: 150px;
   height: auto;
 }
 
@@ -98,21 +110,33 @@ body {
   color: #FFFFFF;
   font-size: 32px;
   font-family: "Netflix Sans", "Helvetica Neue", sans-serif;
+  width: 100%;
   height: 100vh;
-
-}
-
-.unlimited h1 {
-  align-self: center;
-  justify-self: center;
-}
-
-/*.container {
-  display: flex;
+  position: absolute;
+  display: grid;
   justify-content: center;
-  align-items: center;
-  text-align: center;
-}*/
+  
+
+}
+
+.emailAddress{
+ align-self: center;
+ justify-self:center;
+ width: 70%;
+ height: fit-content;
+
+}
+.emailAddress h1{
+ font-size: var(--font-xxl);
+ text-align: center;
+ margin-bottom: var(--font-md);
+}
+.emailAddress p{
+  font-size: var(--font-lg);
+ text-align: center;
+ margin-bottom: 32px;
+}
+
 
 
 body {
@@ -423,7 +447,7 @@ h2 {
 }
 
 .emailUs {
-  width: 70%;
+  width: 100%;
   margin: 0 auto 64px;
 }
 
