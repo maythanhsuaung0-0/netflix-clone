@@ -522,6 +522,7 @@ position: relative;
 .display-block{
  display: block; 
 }
+<<<<<<< HEAD
 
 /* mobile */
 @media screen and (max-width:768px) {
@@ -961,5 +962,4 @@ position: relative;
 }
 .display-block{
  display: block; 
-}
 }
